@@ -1,4 +1,5 @@
-# vue-giphy
+#  Vue [GIPHY](https://developers.giphy.com/)
+A Vue application that consumes GIPHY API.
 
 ## Project setup
 ```
