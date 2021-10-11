@@ -1,26 +1,45 @@
 <template>
-  <div id="gif">
-    <GiphyViewer/>
-  </div>
+
+  <body class="bg">
+    <div>
+      <b-container>
+        <b-row>
+          <b-col>
+            <GiphyViewer />
+          </b-col>
+        </b-row>
+      </b-container>
+    </div>
+  </body>
 </template>
 
 <script>
-import GiphyViewer from './components/GiphyViewer.vue'
+  import GiphyViewer from './components/GiphyViewer.vue'
 
-export default {
-  name: 'App',
-  components: {
-    GiphyViewer
+
+  export default {
+    name: 'App',
+    components: {
+      GiphyViewer
+    }
   }
-}
 </script>
 
 <style>
-   #gif {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  margin-top: 60px;
-}
+  h1 {
+    padding-block: 15px;
+    align-content: flex-start;
+  }
+
+  .container {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #fefefe;
+  }
+
+  .bg {
+    background-color: black;
+  }
 </style>
