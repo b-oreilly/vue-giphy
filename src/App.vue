@@ -1,5 +1,4 @@
 <template>
-
   <body class="bg">
     <div>
       <b-container>
@@ -26,11 +25,6 @@
 </script>
 
 <style>
-  h1 {
-    padding-block: 15px;
-    align-content: flex-start;
-  }
-
   .container {
     font-family: Avenir, Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
